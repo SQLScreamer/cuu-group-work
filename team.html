@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | Simple Website</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 id="site-title">Simple Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html" class="active">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Our Team</h2>
+                <p>Meet the talented individuals behind our success</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Team Members</h3>
+                <div class="team-table-container">
+                    <table class="team-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Role</th>
+                                <th>Email</th>
+                                <th>Registration Number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kalemba Fredrick Edward</td>
+                                <td>Lead Developer</td>
+                                <td>kf12660students.cavendish.ac.ug</td>
+                                <td>CUU 126-605</td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Team Structure</h3>
+                <div class="team-structure">
+                    <div class="department">
+                        <h4>Development Team</h4>
+                        <ul>
+                            <li>Frontend Developers: 2</li>
+                            <li>Backend Developers: 1</li>
+                            <li>Full Stack: 1</li>
+                        </ul>
+                    </div>
+                    <div class="department">
+                        <h4>Design Team</h4>
+                        <ul>
+                            <li>UI/UX Designers: 1</li>
+                            <li>Graphic Designers: 1</li>
+                        </ul>
+                    </div>
+                    <div class="department">
+                        <h4>Management</h4>
+                        <ul>
+                            <li>Project Managers: 1</li>
+                            <li>Quality Assurance: 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h3>Contact Our Team</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="department">Department:</label>
+                        <select id="department" name="department">
+                            <option value="">Select a department</option>
+                            <option value="development">Development</option>
+                            <option value="design">Design</option>
+                            <option value="management">Management</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Simple Website. All rights reserved.</p>
+            <p>Created for Cavendish University Uganda Examination</p>
+        </div>
+    </footer>
+</body>
+</html>

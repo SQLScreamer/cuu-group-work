@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Simple Website</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <div class="container">
+            <h1 id="site-title">Simple Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Our Website</h2>
+                <p>This is a simple two-page website demonstrating HTML and CSS skills.</p>
+                <div class="cta-buttons">
+                    <a href="team.html" class="cta-btn">Meet Our Team</a>
+                    <a href="about.html" class="cta-btn secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Our Services</h3>
+                <div class="services">
+                    <div class="service-item">
+                        <h4>Web Design</h4>
+                        <p>We create beautiful and responsive websites.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Development</h4>
+                        <p>Custom web applications built to your specifications.</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Consulting</h4>
+                        <p>Expert advice to improve your online presence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Popular Technologies</h3>
+                <ul class="tech-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Development Process</h3>
+                <ol class="process-list">
+                    <li>Requirement Analysis</li>
+                    <li>Design Mockups</li>
+                    <li>Development</li>
+                    <li>Testing</li>
+                    <li>Deployment</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Simple Website. All rights reserved.</p>
+            <p>Created for Cavendish University Uganda Examination</p>
+        </div>
+    </footer>
+</body>
+</html>
